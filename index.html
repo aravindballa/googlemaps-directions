@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Directions</title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="panel">
+    <b>Where to go? </b>
+    <select id="end" onchange="calcRoute();">
+      <option value=null>Select..</option>
+      <option value="GVK One Mall, Road Number 1, Balapur Basthi, Banjara Hills, Hyderabad, Telangana">GVK</option>
+      <option value="Ameerpet, Hyderabad, Telangana">Ameerpet</option>
+
+    </select>
+    </div>
+
+
+    <div id="map-canvas"></div>
+  </body>
+</html>
